@@ -1,9 +1,15 @@
 #include<stdio.h>
 #include<string.h>
-/* This is comment*/
+/**
+* main -Entry point
+*
+* Description: 'Prints text'
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-
+/* This is comment */
 char str1[52] = "\"Programming is like building a multilingual puzzle";
 puts(str1);
 
