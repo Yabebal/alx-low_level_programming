@@ -26,7 +26,7 @@ int _isupper(int c)
     case 'K':
       return 1;
     case 'L':
-      retrun 1;
+      return 1;
     case 'M':
       return 1;
     case 'N':
