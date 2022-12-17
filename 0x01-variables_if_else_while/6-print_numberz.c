@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char newL, i;
+	int newL, i;
 
 	newL = '\n';
 	for (i = 0; i < 10; i++)
