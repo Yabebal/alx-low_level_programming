@@ -9,11 +9,13 @@ int print_last_digit(int n)
 {
 	int val;
 
-	if (n < 0)
-		n = -1 * n;
-
 	val = n % 10;
+	if (val < 0)
+	{
+		_putchat('0', -1 * val);
 
+		return (-1 * val);
+	}
 	_putchar('0' + val);
 
 	return (val);
