@@ -33,7 +33,10 @@ void print_to_98(int n)
 	{
 		while (n < 98)
 		{
-			make_out(n);
+			if (n == 0)
+				_putchar('0');
+			else
+				make_out(n);
 			_putchar(',');
 			_putchar(' ');
 			++n;
