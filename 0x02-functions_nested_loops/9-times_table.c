@@ -18,15 +18,17 @@ void times_table(void)
 				num = val % 10;
 				_putchar('0' + val / 10);
 				_putchar('0' + num);
-			} else
+			} else if (val > 0 && val < 10 && j != 0)
 			{
+				_putchar(' ');
 				_putchar('0' + val);
-			}
+			} else
+				_putchar('0' + val);
 			if (j != 9)
 			{
 				_putchar(',');
 				_putchar(' ');
-				if (val < 10 && j != 1)
+				if (i == 0)
 					_putchar(' ');
 			} else
 				_putchar('\n');
