@@ -7,15 +7,8 @@
 
 int _isdigit(int c)
 {
-	int i, count;
-
-	count = 0;
-	for (i = 0; i <= 9; i++)
-	{
-		if (c == i)
-			count++;
-	}
-	if (count != 0)
+	if (c >= 0 || c < 0)
 		return (1);
+
 	return (0);
 }
