@@ -37,7 +37,8 @@ int main(void)
 			{
 				printf("%c", fiveOnly[j]);
 			}
-			printf(" ");
+			if (i != 100)
+				printf(" ");
 		} else
 		{
 			printf("%ld",  i);
