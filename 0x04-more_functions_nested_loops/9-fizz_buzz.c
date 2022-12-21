@@ -22,8 +22,7 @@ int main(void)
 			{
 				printf("%c", both35[j]);
 			}
-			if (i != 100)
-				printf(" ");
+			printf(" ");
 		} else if (i % 3 == 0)
 		{
 			for (j = 0; j < strlen(threeOnly); j++)
