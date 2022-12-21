@@ -32,12 +32,9 @@ void more_numbers(void)
 	{
 		for (j = 0; j <= 14; j++)
 		{
-			if (j == 0)
-				_putchar('0');
-			else if (j > 0 && j <= 9)
-				_putchar('0' + j);
-			else
-				make_out(j);
+			if (j > 9)
+				_putchar('0' + (j / 10));
+			_putchar('0' + (j % 10));
 		}
 		_putchar('\n');
 	}
