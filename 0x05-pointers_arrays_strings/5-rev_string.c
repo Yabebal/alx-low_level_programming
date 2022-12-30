@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * rev_stringv - print string
+ * rev_string - print string
  * @str: character
  * Return: void
  */
@@ -17,10 +17,13 @@ void rev_string(char *str)
 		len++;
 		str++;
 	}
-
-	for (i = len - 1; i >= 0; i--)
+	if (len != 0)
 	{
-		_putchar(*(cpy + i));
-	}
+		for (i = len - 1; i >= 0; i--)
+		{
+			_putchar(*(cpy + i));
+		}
+	} else
+		_putchar("");
 	_putchar('\n');
 }
