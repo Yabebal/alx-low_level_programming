@@ -23,7 +23,6 @@ void rev_string(char *str)
 		{
 			_putchar(*(cpy + i));
 		}
-	} else
-		_putchar("");
-	_putchar('\n');
+		_putchar('\n');
+	}
 }
