@@ -2,7 +2,7 @@
 
 /**
  * _strlen - length of string
- * @s: character 
+ * @s: character
  * Return: void
  */
 
